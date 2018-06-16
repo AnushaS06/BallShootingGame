@@ -1,0 +1,116 @@
+#t1{
+    
+    color: purple;
+    
+}
+#aa{
+    border: 8px solid white;
+    background-color:lightseagreen;
+    position: absolute;
+    left:275px;
+    top:80px;
+    width: 500px;
+    height: 400px;
+}
+#aa2{
+    border: 8px solid white;
+    background-color:lightseagreen;
+    position: absolute;
+    left:275px;
+    top:80px;
+    width: 800px;
+    height: 500px; 
+}
+
+#t2{
+    color : darkblue;
+    
+}
+img.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    -webkit-filter: blur(5px); 
+    filter: blur(3.5px);
+}
+#l1 {
+    color:whitesmoke;
+    }
+
+#l2 {
+    color:red;
+    
+}
+#l3 {
+    color: darkblue;
+    }
+#l4 {
+    color:yellow;
+    
+}
+#sc{
+    color : purple;
+    font-size : 50px;
+    
+}
+#ab{
+    position:absolute;
+    left:300px;
+    top:510px;
+}
+#a1{
+    font-size: 40px;
+    background-color: rgb(20, 223, 238);
+}
+#a2{
+    font-size: 40px;
+    background-color: rgb(20, 223, 238);
+    position:absolute;
+    top:410px;
+    left:150px;
+}
+#a3{
+    font-size: 40px;
+    background-color: rgb(20, 223, 238);
+    position:absolute;
+    top:410px;
+    left:150px;
+}
+#z{
+    color:yellow;
+}
+#za1 {
+    position: absolute;
+    left:900px;
+    top:100px;
+    background-color: black;
+}
+
+#za2 {
+    position: absolute;
+    left:900px;
+    top: 150px;
+    
+}
+#sc2{
+    color : red;
+    font-size : 50px;
+    
+}
+#xx{
+    color:darkred;
+    background-color:lightseagreen;
+     position: absolute;
+    left:400px;
+    top: 320px; 
+}
+#xx1{
+    color:darkred;
+    background-color:lightseagreen;
+     position: absolute;
+    left:980px;
+    top: 520px; 
+}

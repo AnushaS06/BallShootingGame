@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            page1
+        </title>
+        <link rel="stylesheet" href="page1.css"/>
+        <script src="page11.js"></script>
+    </head>
+    <body>
+        <img class="background" src="balls.jpg" alt="balls" >
+        <div id="aa2">
+        <div id="t2">
+        <h1><b><i><u>&nbsp;Instructions</u></i></b></h1>
+        </div>
+        <p>
+            
+            <div id="t1">
+            <h2>
+            &nbsp;    1. Choose color, number of balls and speed<br>    
+            &nbsp;    2. In the next screen pop all the balls of the color chosen within the time limit &nbsp;
+                      3. Try not to pop balls of other colors <br><br>
+            </h2></div>
+            <div id="z">
+            <h3>
+                    &nbsp;    Score = Correct balls poped - wrong balls poped 
+            </h3> 
+            </div>
+            
+            
+            <div id="l1">&nbsp;  Number of Balls to pop : <input type="number" min="0" max="20" value="5" onchange="changeNumberOfBall(this.value);"><br><br>
+                &nbsp;   Color of the ball to pop :<br> </div>
+            <div id="l2"><input type="radio" id="l" checked value="red" name="a" onclick="changeColorOfBall(this.value);">&nbsp;RED <br><br></div>
+            <div id="l3"><input type="radio" id="l" value="blue" name="a" onclick="changeColorOfBall(this.value);">&nbsp; BLUE <br><br></div> 
+            <div id="l4"><input type="radio" id="l" value="yellow" name="a" onclick="changeColorOfBall(this.value);">&nbsp; YELLOW <br><br></div>
+            <div id="l1">&nbsp;Speed of ball : <input type="range" min="1" max="3" step="0.1" onchange="changeSpeedOfBall(this.value);"><br><br></div> 
+            <br><br>
+                                        
+            <div id="ab"><button id="a1"><a href="anim.html">Next >>></a></button></div>
+        </div>
+            
+        </p>
+        <div id="xx1"><p>ANUSHA S <br> 1RN16CS014</p></div>
+    </body>
+</html>
